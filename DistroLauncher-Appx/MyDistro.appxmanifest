@@ -3,7 +3,7 @@
   <Identity Name="DistroName.1.0" Version="1.0.0.0" Publisher="CN=DistroOwner" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="00000000-0000-0000-0000-000000000000" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>My Linux Distro</DisplayName>
+    <DisplayName>Arch Linux Distro</DisplayName>
     <PublisherDisplayName>DistroOwner</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -17,16 +17,16 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="mydistro" Executable="mydistro.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="My Linux Distro" Description="My Own Distro Launcher" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent">
+    <Application Id="archlinux" Executable="archlinux.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Arch Linux Distro" Description="Arch Distro Launcher" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions>
-        <uap3:Extension Category="windows.appExecutionAlias" Executable="mydistro.exe" EntryPoint="Windows.FullTrustApplication">
+        <uap3:Extension Category="windows.appExecutionAlias" Executable="archlinux.exe" EntryPoint="Windows.FullTrustApplication">
           <uap3:AppExecutionAlias>
-            <desktop:ExecutionAlias Alias="mydistro.exe" />
+            <desktop:ExecutionAlias Alias="archlinux.exe" />
           </uap3:AppExecutionAlias>
         </uap3:Extension>
       </Extensions>
