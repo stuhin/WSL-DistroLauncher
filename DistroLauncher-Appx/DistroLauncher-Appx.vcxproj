@@ -91,16 +91,6 @@
     </AppxManifest>
     <None Include="DistroLauncher-Appx_TemporaryKey.pfx" />
   </ItemGroup>
-  <ItemGroup Condition="'$(Platform)'=='x64'">
-    <None Include="..\x64\install.tar.gz">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-  </ItemGroup>
-  <ItemGroup Condition="'$(Platform)'=='ARM64'">
-    <None Include="..\ARM64\install.tar.gz">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-  </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LargeTile.scale-100.png" />
     <Image Include="Assets\LargeTile.scale-125.png" />
